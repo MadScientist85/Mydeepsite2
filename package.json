@@ -1,5 +1,5 @@
 {
-  "name": "DeepSite-2.0,
+  "name": "deepSite-2.0,
   "version": "2.0.0",
   "description": "AI-powered website generator with multi-provider support",
   "main": "server.js",
