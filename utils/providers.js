@@ -100,7 +100,7 @@ export const PROVIDERS = {
         maxTokens: 131072,
         supportsStreaming: true,
         description: "AI with real-time web search capabilities"
-    } // <-- This brace was missing!
+    } // <-- ADD THIS BRACE!
 };
 
 // Helper function to get model display name
