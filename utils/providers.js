@@ -100,7 +100,9 @@ export const PROVIDERS = {
         maxTokens: 131072,
         supportsStreaming: true,
         description: "AI with real-time web search capabilities"
-  
+    } // <-- This brace was missing!
+};
+
 // Helper function to get model display name
 export const getModelDisplayName = (providerId, modelId) => {
     const provider = PROVIDERS[providerId];
@@ -119,7 +121,8 @@ export const getModelDisplayName = (providerId, modelId) => {
         .split('-')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
-  
+};
+
 // Helper function to get all available models across providers
 export const getAllAvailableModels = () => {
     const allModels = [];
